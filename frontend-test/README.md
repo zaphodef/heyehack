@@ -1,5 +1,3 @@
-source
-======
 HeyeHack test tool, webserver interface. It allows to test your happy eyeballs implementation, and can simulate delays over DNS answers and/or SYN-ACK answers.
 
 installation

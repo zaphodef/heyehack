@@ -2,7 +2,7 @@ HeyeHack - a Happy Eyeballs test tool.
 
 Details
 ====
-HeyeHack uses NF\__QUEUES in order to filter packets and make them wait. The packets are enqueued by the iptables just before leaving the server.
+HeyeHack uses NF\_QUEUES in order to filter packets and make them wait. The packets are enqueued by the iptables just before leaving the server.
 
 All DNS packets over UDP (port 53) are enqueued. Then, based on the domain requested (A or AAAA only), there are sent to a sleep queue to wait the appropriate period of time. Domains are expected to be formatted the following way: SEED-A\_DELAY-AAAA\_DELAY.domain.
     eg. requesting test-0-50 means the AAAA answer will be retained for 50ms by the server, while the A answer will go through with no delay

@@ -1,5 +1,3 @@
-source
-======
 Visualize HeyeHack's statistics.
 
 license
