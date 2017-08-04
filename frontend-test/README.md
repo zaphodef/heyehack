@@ -11,13 +11,14 @@ Make sure the following domains are correctly handled:
 license
 ======
 &copy; 2014-2017 Jason Fesler, Pierre-Jean Grenier 
+
 Licensed under the MIT license.
 
 includes
 =======
 (all inclusions are licensed in MIT license)
-jstat: https://github.com/jstat/jstat
-jquery: https://github.com/jquery/jquery
-jquery-jsonp: https://github.com/jaubourg/jquery-jsonp
-Chart.js: https://github.com/chartjs
-bootstrap: https://getbootstrap.com/
+* jstat: https://github.com/jstat/jstat
+* jquery: https://github.com/jquery/jquery
+* jquery-jsonp: https://github.com/jaubourg/jquery-jsonp
+* Chart.js: https://github.com/chartjs
+* bootstrap: https://getbootstrap.com/
