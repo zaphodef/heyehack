@@ -1,0 +1,11 @@
+body {
+  padding-top: 50px;
+}
+.title-content {
+  padding: 15px 15px;
+  text-align: center;
+}
+
+.param_input {
+    width: 60px;
+}

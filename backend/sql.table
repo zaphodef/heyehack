@@ -1,0 +1,16 @@
+CREATE TABLE log (
+	date DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+	user_agent varchar(1024),
+	delay_aaaa_th INT,
+	delay_a_th INT,
+	delay_synack_v4_th INT,
+	delay_synack_v6_th INT,
+	delay_aaaa_mes INT,
+	delay_a_mes INT,
+	delay_synack_v4_mes INT,
+	delay_synack_v6_mes INT,
+	ipversion varchar(25),
+	ip varchar(40),
+	result_time decimal(8,6),
+	rtt INT
+);
