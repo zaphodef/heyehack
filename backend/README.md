@@ -28,5 +28,5 @@ Installation
 HOWTO
 =====
 * The webserver, the filters and the queues must be run as root.
-* To launch the webserver: sudo ./server.py
-* To launch the filters and the queues, and load the iptables: sudo ./launch.sh
+* To launch everything, just do: sudo ./launch\_heyehack.sh
+* You can also install the service in systemd with heyehack.service

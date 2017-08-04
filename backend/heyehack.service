@@ -1,0 +1,18 @@
+[Unit]
+Description=HeyeHack
+After=networking.service apache2.service mysql.service
+Requires=networking.service apache2.service mysql.service
+
+[Service]
+Type=simple
+
+ExecStart=path/to/launch_heyehack.sh
+ExecReload=/usr/bin/pkill -F /var/run/heyehack/heyehack.pid --signal SIGUSR1
+
+Restart=on-failure
+
+# Configures the time to wait before service is stopped forcefully.
+TimeoutStopSec=300
+
+[Install]
+WantedBy=multi-user.target
