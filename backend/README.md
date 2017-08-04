@@ -18,7 +18,7 @@ Licensed under the MIT license.
 
 Requirements
 =====
-* libnetfilter\_queue: https://github.com/fqrouter/libnetfilter\_queue
+* libnetfilter\_queue: https://github.com/fqrouter/libnetfilter_queue
 
 Installation
 ====
