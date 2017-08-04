@@ -14,6 +14,8 @@ License
 &copy; 2014-2017 Jason Fesler, Pierre-Jean Grenier <br />
 Licensed under the MIT license.
 
+This website is based on another website by Jason Fesler, see the [appropriate repo](https://github.com/falling-sky/happy-eye-test).
+
 Includes
 =======
 (all inclusions are licensed in MIT license)
