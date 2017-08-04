@@ -180,7 +180,7 @@ jQuery("#noscript").hide();
             </script>
 
             <hr />
-            <i>Based on another website by Jason Fesler, see <a href="https://github.com/falling-sky/happy-eye-test">the appropriate GitHub repo</a>.</i>
+            <i>Sources are available under the MIT license <a href="https://github.com/zaphodef/heyehack">on GitHub</a>. This website is based on another website by Jason Fesler, see <a href="https://github.com/falling-sky/happy-eye-test">the appropriate GitHub repo</a>.</i>
         </div>
     </body>
 </html>
