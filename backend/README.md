@@ -12,8 +12,7 @@ The packets on ports 10,000-10,999 are also filtered. Those ports are used by th
 
 License
 ====
-&copy; 2017 Pierre-Jean Grenier
-
+&copy; 2017 Pierre-Jean Grenier <br />
 Licensed under the MIT license.
 
 Requirements
