@@ -1,12 +1,16 @@
 Visualize HeyeHack's statistics.
 
-license
+License
 ======
-&copy; 2017 Paul Béglin, Pierre-Jean Grenier
-
+&copy; 2017 Paul Béglin, Pierre-Jean Grenier<br />
 Licensed under the MIT license.
 
-includes
+Installation
+======
+* Install bootstrap
+* Change database login in index.php
+
+Includes
 =======
 (all inclusions are licensed under the MIT license)
 * Chart.js: https://github.com/chartjs
