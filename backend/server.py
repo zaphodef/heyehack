@@ -139,7 +139,7 @@ class HeyeHackHTTPRequestHandler(BaseHTTPRequestHandler):
         delay = 0
         if (delta_port <= 300):
             delay = delta_port*2
-        elif (delta_port <= 600):
+        elif (delta_port <= 400):
             delay = 600 + (delta_port-300)*4
         elif (delta_port < 500):
             delay = 1000 + (delta_port-400)*20
