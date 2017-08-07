@@ -308,7 +308,7 @@ HH.read_synack_delays = function() {
     if (delay <= 600) delta_port = ~~(delay/2);
     else if (delay <= 1000) delta_port = 300 + ~~((delay-600)/4);
     else if (delay < 3000) delta_port = 400 + ~~((delay-1000)/20);
-    else delta_port = 500; // the max we allow
+    else delta_port = 499; // the max we allow
 
     if (delay_ipv6) {
         // delay IPv6
