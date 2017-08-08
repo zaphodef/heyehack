@@ -54,7 +54,7 @@
             <p id="url_result" class="bg-primary text-center">seed-0-0.test.ds.6cn-prs.6cn.io:10000/ip?callback=test</p>
             <hr />
             <h3>Explanations</h3>
-            <p>To specify the delays you want, you have to correctly format the URL you use: <i>seed</i>-<i>A delay</i>-<i>AAAA delay</i>.test.ds.6cn-prs.6cn.io:<i>port</i>/ip?callback=test.</p>
+            <p>To specify the delays you want, you have to correctly format the URL you use: <i>seed</i>-<i>AAAA delay</i>-<i>A delay</i>.test.ds.6cn-prs.6cn.io:<i>port</i>/ip?callback=test.</p>
             <h4>DNS delays</h4>
             Replace <i>A delay</i> and <i>AAAA delay</i> by the delay you want to be applied (in ms). <i>seed</i> can be whatever you want: if you change it every request, you will make a new DNS request every time. Depending on what you want to test, think about it.</p>
             <h4>SYN-ACK delay</h4>
