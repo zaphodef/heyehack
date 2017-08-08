@@ -35,6 +35,7 @@ $dbh = new PDO('mysql:host=localhost;dbname=DATABASE', $user, $pass);
                     <ul class="nav navbar-nav">
                         <li><a class="navbar-brand" href="http://ds.ds.6cn-prs.6cn.io">Experiment</a></li>
                         <li class="active"><a href="#">Stats</a></li>
+                        <li><a class="normal"href="http://ds.ds.6cn-prs.6cn.io/more.php">Advanced</a></li>
                     </ul>
                 </div><!--/.nav-collapse -->
             </div>

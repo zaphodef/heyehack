@@ -43,6 +43,7 @@ $_SESSION['active'] = $active;
                     <ul class="nav navbar-nav">
                         <li class="active"><a class="navbar-brand normal" href="">Experiment</a></li>
                         <li><a class="normal"href="http://stats.ds.6cn-prs.6cn.io">Stats</a></li>
+                        <li><a class="normal"href="http://ds.ds.6cn-prs.6cn.io/more.php">Advanced</a></li>
                     </ul>
                 </div><!--/.nav-collapse -->
             </div>
