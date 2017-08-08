@@ -158,7 +158,7 @@ function delay_to_port(delay) {
 
 function generate_url() {
     var port = delay_to_port($syn_ack_delay.val());
-    url = "seed-" + $a_delay.val() + "-" + $aaaa_delay.val() + ".test.ds.6cn-prs.6cn.io:" + port + "/ip?callback=change_me";
+    url = "seed-" + $aaaa_delay.val() + "-" + $a_delay.val() + ".test.ds.6cn-prs.6cn.io:" + port + "/ip?callback=change_me";
     $result.text(url);
 }
 
